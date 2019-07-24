@@ -1,0 +1,50 @@
+nav, footer {
+  background-color: grey;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 200px;
+}
+
+.a {
+  background-color: #F13131;
+  width: 500px;
+
+}
+
+.b {
+  background-color: #F19731;
+  width: 500px;
+
+}
+
+.c {
+  background-color: #F1EE31;
+  
+}
+
+@media screen and (max-width:985px){
+  .a-and-b{
+    display:flex;
+    align-content: stretch;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+  }
+}
+@media screen and (max-width:600px){
+  .m{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    height: 100;
+
+  }
+}
+.m{
+  display:flex;
+  justify-content: flex-start;
+}
